@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DEFAULT_DECISION_TIME: "09:00"
+    volumes:
+      # Persist the downloaded Elexon snapshot between restarts.
+      - wind-data:/app/data
+
+volumes:
+  wind-data:
