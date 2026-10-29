@@ -11,7 +11,7 @@ A web app for a UK energy supplier's day-ahead trading team. It answers two ques
 Data: Elexon BMRS national wind **outturn** ([FUELHH], `fuelType = WIND`, half-hourly) and wind
 **forecasts** ([WINDFOR], hourly, with `publishTime`). No other data is used.
 
-**Live app:** _add the Vercel URL here after deploying (see [Deploy](#deploy))._
+**Live app:** https://z8f2k91.vercel.app/ (API docs: https://z8f2k91.vercel.app/docs)
 
 [FUELHH]: https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH/stream
 [WINDFOR]: https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/WINDFOR/stream
