@@ -108,7 +108,6 @@ shows how much accuracy is gained by deciding later.
 ├── heroku.yml                  Heroku container-stack build
 ├── vercel.json, api/index.py   Vercel: static React build + FastAPI as a Python function
 ├── requirements.txt            Python deps for the Vercel function (points at backend/)
-├── docs/VIDEO_SCRIPT.md        Script and shot list for the demo video
 ├── Makefile                    Common dev commands
 └── .github/workflows/ci.yml    Lint, tests, frontend build, Docker build
 ```
