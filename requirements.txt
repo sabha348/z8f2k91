@@ -1,2 +1,5 @@
-# Python dependencies for the Vercel function (api/index.py); the backend pins them.
--r backend/requirements.txt
+# Python dependencies for the Vercel function (api/index.py).
+# Vercel cannot parse "-r" includes, so keep these pins in sync with backend/requirements.txt.
+fastapi==0.162.0
+httpx==0.28.1
+pydantic==2.14.1
